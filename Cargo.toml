@@ -1,15 +1,12 @@
 [package]
 name = "obs-plugin-follow-active-window"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 
 [dependencies]
-obs-wrapper = { version = "0.3.0" }
+obs-wrapper = { version = "0.4.1" }
 log = "0.4"
-active-win-pos-rs = { version = "0.5.0" }
-
-[patch.crates-io]
-obs-wrapper = { path = "E:\\dev\\rust\\obs-plugins\\rust-obs-plugins" }
+active-win-pos-rs = { version = "0.7.1" }
 
 [lib]
 name = "followactivewindow"
